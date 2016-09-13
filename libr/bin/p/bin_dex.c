@@ -8,7 +8,7 @@
 #define r_hash_adler32 __adler32
 #include "../../hash/adler32.c"
 
-#define DEBUG_PRINTF 0
+#define DEBUG_PRINTF 1
 
 #if DEBUG_PRINTF
 #define dprintf eprintf
